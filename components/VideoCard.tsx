@@ -3,8 +3,9 @@
 import React, { useState, useCallback } from 'react'
 import { Download, Clock } from 'lucide-react'
 import { getCldImageUrl, getCldVideoUrl } from 'next-cloudinary'
- import { Video } from '@/app/generated/prisma'
+//  import { Video } from '@/app/generated/prisma'
 
+import type { Video } from '@prisma/client'
 
 
 interface VideoCardProps {

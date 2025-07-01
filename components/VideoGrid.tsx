@@ -2,7 +2,9 @@
 
 import React from 'react'
 import VideoCard from './VideoCard'
-import { Video } from '@/app/generated/prisma'
+// import { Video } from '@/app/generated/prisma'
+import type { Video } from '@prisma/client'
+
 
 interface VideoGridProps {
   videos: Video[]
