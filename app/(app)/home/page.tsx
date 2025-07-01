@@ -1,5 +1,5 @@
 import React from 'react'
-import { PrismaClient } from '@/app/generated/prisma'
+import { PrismaClient } from '@prisma/client'
 import VideoGrid from '@/components/VideoGrid'
 import Sidebar from '@/components/Sidebar'
 import { auth } from '@clerk/nextjs/server'
