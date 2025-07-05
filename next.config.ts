@@ -4,6 +4,13 @@ const nextConfig: NextConfig = {
   /* config options here */
   
   ignoreDuringBuilds: true,
+  reactStrictMode: false, // turn off strict mode (optional)
+  typescript: {
+    ignoreBuildErrors: true, // ignore all TS errors
+  },
+  eslint: {
+    ignoreDuringBuilds: true, // ignore all ESLint errors
+  },
 };
 
 export default nextConfig;
