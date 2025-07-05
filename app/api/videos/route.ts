@@ -1,6 +1,7 @@
 import { NextResponse,NextRequest } from "next/server";
 // import { PrismaClient } from "@/app/generated/prisma";
-import { Video } from '@prisma/client'
+// import { Video } from '@prisma/client'
+import { PrismaClient } from "@prisma/client";
 
 
 const prisma= new PrismaClient()
