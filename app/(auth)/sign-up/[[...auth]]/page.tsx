@@ -16,6 +16,8 @@ export default function SignUpPage() {
             <SignUp
               routing="path"
               path="/sign-up"
+              signInUrl="/sign-in"
+              redirectUrl="/home"
               appearance={{
                 elements: {
                   card: "bg-gray-900 shadow-none",
